@@ -30,8 +30,8 @@ let quotes = [
   {
       quote: "Be yourself, everyone else is already taken",
       source: "Oscar Wilde",
-      citation: "Unknown",
-      year: "Unknown"
+      citation: "",
+      year: ""
   },
   
   {
@@ -57,7 +57,7 @@ let quotes = [
   
   {
       quote: "There's no crying in baseball",
-      source: "Unknown",
+      source: "Jimmy Duggan",
       citation: "A League of Their Own",
       year: "1992"
   },
@@ -71,14 +71,14 @@ let quotes = [
   
   {
       quote: "You is kind, you is smart. You is important",
-      source: "Unknown",
+      source: "Aibileen Clark",
       citation: "The Help",
       year: "2011"
   },
   
   {
       quote: "Snap out of it",
-      source: "Unknown",
+      source: "Cher",
       citation: "Moonstruck",
       year: "1987"
   },
@@ -86,8 +86,8 @@ let quotes = [
   {
       quote: "Optimisim is the hope that leads to achievement",
       source: "Hellen Keller",
-      citation: "Unknown",
-      year: "Unknown"
+      citation: "",
+      year: ""
   }
   
   

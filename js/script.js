@@ -145,7 +145,7 @@ if(randomQuote.citation){
 // show the year the quote was made
 if(randomQuote.year){
 
-  p2+= "<span class = 'year'>" + '' + randomQuote.citation +  '' +  "</span>"
+  p2+= "<span class = 'year'>" + '' + randomQuote.year +  '' +  "</span>"
 }
 
 // The p1 and p2 variables are then appended to the html variable, with the closing <p> tag

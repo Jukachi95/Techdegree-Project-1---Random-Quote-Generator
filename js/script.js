@@ -25,69 +25,66 @@ let quotes = [
       quote: "You forget a thousand things everyday, how about you make sure this is one of them",
       source: "Grand Theft Auto V",
       citation: "Michael De Santa",
-      year: "2013"
+      year: 2013
   },
   {
       quote: "Be yourself, everyone else is already taken",
       source: "Oscar Wilde",
-      citation: "",
-      year: ""
   },
   
   {
       quote: "Avengers....Assemble",
       source: "Steve Rogers",
       citation: "Avengers Endgame",
-      year: "2019"
+      year: 2019
   },
   
   {
       quote: "May The Force Be With you",
       source: "Obi Wan Kenobi",
       citation: "Star Wars",
-      year: "1977"
+      year: 1977
   },
   
   {
       quote: "I'll be back",
       source: "T-800",
       citation: "Terminator",
-      year: "1984"
+      year: 1984
   },
   
   {
       quote: "There's no crying in baseball",
       source: "Jimmy Duggan",
       citation: "A League of Their Own",
-      year: "1992"
+      year: 1992
   },
   
   {
       quote: "Shaken, not stirred",
       source: "James Bond",
       citation: "Goldfinger",
-      year: "1964"
+      year: 1964
   },
   
   {
       quote: "You is kind, you is smart. You is important",
       source: "Aibileen Clark",
       citation: "The Help",
-      year: "2011"
+      year: 2011
   },
   
   {
       quote: "Snap out of it",
       source: "Cher",
       citation: "Moonstruck",
-      year: "1987"
+      year: 1987
   },
   
   {
       quote: "Optimisim is the hope that leads to achievement",
       source: "Hellen Keller",
-      citation: "",
-      year: ""
+     
   }
   
   
@@ -145,7 +142,7 @@ if(randomQuote.citation){
 // show the year the quote was made
 if(randomQuote.year){
 
-  p2+= "<span class = 'year'>" + '' + randomQuote.year +  '' +  "</span>"
+  p2+= "<span class = 'year'>" + '' + randomQuote.year  +  '' +  "</span>"
 }
 
 // The p1 and p2 variables are then appended to the html variable, with the closing <p> tag
